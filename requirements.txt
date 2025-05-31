@@ -1,3 +1,14 @@
 torch
 requests
 tqdm
+PyYAML
+dill
+from-root
+python-dotenv
+joblib
+flask
+pandas
+numpy 
+mlflow
+pymongo
+-e .

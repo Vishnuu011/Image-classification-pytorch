@@ -15,3 +15,8 @@ class DataIngestionConfig:
     extracted_folder_name: str = "Bones-data"  # Name of the folder inside the zip
     train_path: str = os.path.join(data_path, extracted_folder_name, TRAIN_FOLDER_NAME)
     test_path: str = os.path.join(data_path, extracted_folder_name, TEST_FOLDER_NAME)
+
+
+@dataclass
+class DataValidationConfig:
+    schema_file_path = os.path.join("config", "schema.yaml")

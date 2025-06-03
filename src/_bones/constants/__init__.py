@@ -17,3 +17,5 @@ TRAIN_FOLDER_NAME = "train"
 TEST_FOLDER_NAME = "test"
 
 MONGO_DB_NAME = "mydatabase"
+
+SCHEMA_YAML_PATH= os.path.join("config", "schema.yaml")

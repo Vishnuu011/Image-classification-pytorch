@@ -40,7 +40,7 @@ class DataValidation:
                 path=self.data_ingestion_artifact.test_file_path
             )    
             if not status:
-                validation_error_msg += "class are missing in train data ..."
+                validation_error_msg += "class are missing in test data ..."
             validation_status=len(validation_error_msg) == 0
 
             validation_artifact=DataValidationArtifact(

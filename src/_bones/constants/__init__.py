@@ -19,3 +19,15 @@ TEST_FOLDER_NAME = "test"
 MONGO_DB_NAME = "mydatabase"
 
 SCHEMA_YAML_PATH= os.path.join("config", "schema.yaml")
+
+MODEL_TRAINER_ARTIFACT_DIR : str = "model_trainer"
+MODEL_NAME : str = "torch_model.pt"
+BATCH_SIZE : int = 64
+EPOCHS : int = 13
+LEARNING_RATE : float = 0.001
+GRAD_CLIP : float = 0.1
+WEIGHT_DECAY : float = 1e-4
+IN_CHANNELS: int = 3
+OPTIMIZER = torch.optim.RMSprop
+NUM_CLASSES :int = 6
+TRANSFORM_OBJECT_NAME: str = "transform.pkl"

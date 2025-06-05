@@ -118,3 +118,6 @@ def predict_img(img, model, device):
         return predicted_class, confidence
     except Exception as e:
         raise CustomException(e, sys)
+    
+
+#utils     
